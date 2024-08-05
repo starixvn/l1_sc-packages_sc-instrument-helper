@@ -12,10 +12,10 @@
         "build:watch": "tsc --watch",
         "test": "jest",
         "test-coverage": "jest --collect-coverage",
-        "reg": "npm set registry http://npm.lumigame.com",
-        "pub": "npm publish --registry http://npm.lumigame.com",
+        "reg": "npm set registry https://npm.lumigame.com",
+        "pub": "npm publish --registry https://npm.lumigame.com",
         "betaver": "npm version prerelease --preid beta",
-        "pubbeta": "npm publish --registry http://npm.lumigame.com --tag beta",
+        "pubbeta": "npm publish --registry https://npm.lumigame.com --tag beta",
         "semantic-release": "semantic-release"
     },
     "jestSonar": {
